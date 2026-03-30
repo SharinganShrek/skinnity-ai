@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Skincare Advisor - Your Personalized Skincare Consultation",
+  title: "Dermasight - Your Personalized Skincare Consultation",
   description: "Get personalized skincare advice based on your skin type and concerns",
 };
 

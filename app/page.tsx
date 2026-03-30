@@ -167,14 +167,14 @@ export default function Home() {
           setMessages([
             {
               role: 'assistant',
-              content: 'Hello! I\'m your skincare advisor. Let me create a personalized skincare routine for you based on your analysis...',
+              content: 'Hello! I\'m Dermasight. Let me create a personalized skincare routine for you based on your analysis...',
             },
           ]);
         } else {
           setMessages([
             {
               role: 'assistant',
-              content: 'Hello! I\'m your skincare advisor. How can I help you today?',
+              content: 'Hello! I\'m Dermasight. How can I help you today?',
             },
           ]);
         }
@@ -184,7 +184,7 @@ export default function Home() {
       setMessages([
         {
           role: 'assistant',
-          content: 'Hello! I\'m your skincare advisor. How can I help you today?',
+          content: 'Hello! I\'m Dermasight. How can I help you today?',
         },
       ]);
     } finally {
@@ -296,7 +296,7 @@ export default function Home() {
         <div className="bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-5 text-white flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-semibold tracking-tight">
-              🌿 Skincare Advisor
+              🌿 Dermasight
             </h1>
             <p className="text-emerald-100 text-sm mt-1">
               Your personalized skincare consultation

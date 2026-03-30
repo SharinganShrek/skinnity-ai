@@ -47,7 +47,8 @@ export async function POST(request: NextRequest) {
     }
 
     // Build system prompt with skin analysis data
-    let systemPrompt = 'You are a friendly and knowledgeable skincare advisor. You help users understand their skin type and provide personalized skincare advice. Be warm, professional, and focus on natural, healthy skincare practices.';
+    let systemPrompt =
+      'You are Dermasight, a friendly and knowledgeable skincare assistant. You help users understand their skin type and provide personalized skincare advice. Be warm, professional, and focus on natural, healthy skincare practices.';
     
     if (analysis) {
       systemPrompt += `\n\nUser's Skin Profile:
